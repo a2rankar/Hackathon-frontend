@@ -1,0 +1,47 @@
+// Header.module.scss
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ababab16; 
+    color: #ffffff;
+    padding: 0%;
+    width: 95vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #101010;
+  }
+  
+  .main {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .main a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    background-color: none;
+    transition: color 0.2s ease;
+  
+    &:hover {
+      color: #60a5fa; // светло-синий при наведении
+    }
+  }
+  
+  .rightSide {
+    cursor: pointer;
+    color: #f87171;
+    padding-right: 30px;
+    font-weight: 500;
+  
+    &:hover {
+      color: #ef4444;
+    }
+  }
+  
